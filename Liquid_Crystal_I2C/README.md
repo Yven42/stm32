@@ -15,7 +15,11 @@ Check in i2c-lcd.c
 Include in your projekt for example:
 
 lcd_init();
+
 lcd_send_string("Hello World");
+
 lcd_put_cur(1,0);
+
 lcd_send_string("First Print");
-//lcd_clear();
+
+lcd_clear();
